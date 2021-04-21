@@ -1,0 +1,248 @@
+body {
+    color: black;
+    text-align: left;
+    font-size: 0.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+section{
+    padding: 30vh 0;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(123, 148, 247);
+  
+}
+.custom1 {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.8px);
+    height: 277px;
+    transform: rotateY(180deg);
+}
+
+.custom1 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+    .custom1 svg {
+        width: calc(100% + 1.3px);
+        height: 194px;
+    }
+}
+
+.data {
+    background: rgb(123, 148, 247);
+    padding: 0%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0%;
+    display: grid;
+    place-content: left;
+}
+
+.data .topic_1{
+    padding-left: 1%;
+    margin-top: 1%;
+    font-size: 16px;
+    color: #FFF;
+    font-family: sans-serif;
+
+}
+.data .topic {
+    padding-left: 10%;
+    margin-top: 8%;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.data .topic_2 {
+    padding-left: 10%;
+    margin-top: -3%;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.data .topic_3 {
+    padding-left: 10%;
+    margin-top: -3%;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.data .topic_4 {
+    padding-left: 11%;
+    margin-top: -2.5%;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+h3 {
+    padding-left: 10%
+}
+
+
+#login-box {
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 70%;
+  width: 300px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+input[type="button"] {
+    margin-left: 10%;
+    padding-left: -0px;
+    padding-top: 1%;
+    width: 210px;
+    height: 32px;
+    background: #ffffff;
+    border: none;
+    
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.1s ease;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover,
+  input[type="button"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+    input[type="button"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  .btn-group button {
+      background-color: #FFF;
+      color: black;
+      margin-left: 10%;
+      padding-left: 2px;
+      padding-top: 0%;
+      font-weight: 800;
+      width: 220px;
+      height: 82px;
+      display: block;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+
+  }
+ 
+  .btn-group button:not(:last-child){
+      border-bottom: none;
+  }
+  .btn-group button:hover{
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  
+  .btn-group button:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+   
+  
+ 
+.left {
+  position: right;
+  padding-top: 0%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 200px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding-top: 0%;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #2365cf;
+  color: #2365cf;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  margin-left: 40%;
+  width: 120px;
+  height: 32px;
+  background: #2365cf;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
